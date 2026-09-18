@@ -1,0 +1,6 @@
+{
+  "name": "Phonics Fun",
+  "description": "A child-friendly phonics learning game for preschool children aged 3–6 featuring Listen and Find, practice mode, and parent progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

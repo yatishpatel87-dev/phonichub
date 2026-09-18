@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    background-color: #FEF9C3; /* Warm cheerful amber-50/yellow-100 base */
+    min-height: 100vh;
+    color: #1E293B;
+  }
+
+  h1, h2, h3, h4, .font-fredoka {
+    font-family: 'Fredoka', cursive, system-ui, sans-serif;
+  }
+}
+
+@keyframes bounceSlow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 3s ease-in-out infinite;
+}
